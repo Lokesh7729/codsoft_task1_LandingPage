@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COFFEESI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="index.js"></script>
+  </head>
+
+  <body>
+    <header class="header" >
+      <a href="#hero"><img class="logo" src="/assets/logo.png" alt="food-logo" /></a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#hero">Home</a></li>
+          <li><a class="main-nav-link" href="#menu">Menu</a></li>
+          <li><a class="main-nav-link" href="#about-us">About</a></li>
+          <li><a class="main-nav-link" href="#customer">Customers</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <ul class="main-nav-list cart">
+          <li>
+            <a class="main-nav-link nav-cat" href="#cta">Order Now</a>
+          </li>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </ul>
+      </div>
+    </header>
+    <main id="home">
+      <section class="section-hero" id="hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <!-- // text body -->
+            <h1 class="heading-primary">
+              Enjoy your <span>coffee</span><br />
+              before your activity
+            </h1>
+            <p class="hero-discription">
+              Boost your porductivity and build your <br />mood with a glass of
+              coffee in the morning
+            </p>
+
+            <a href="#cta" class="btn btn--full margin-right-sm">Order now </a>
+            <a href="#more-menu" class="btn btn--outline">More menu &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img
+                  src="./assets/customers/customer-1.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./assets/customers/customer-2.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./assets/customers/customer-3.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./assets/customers/customer-4.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./assets/customers/customer-5.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./assets/customers/customer-6.jpg"
+                  alt="customer photo"
+                />
+              </div>
+              <p class="delivered-text">
+                <span>50,000+</span> coffee last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <!-- // text imgage -->
+            <img src="./assets/hero.svg" alt="" class="hero-img" />
+          </div>
+        </div>
+      </section>
+      <section class="popular" id="more-menu">
+        <h1>Popular <span class="span">Now</span></h1>
+        <div class="feature">
+          <div class="cont">
+            <div class="coffee">
+              <img src="./assets/img /1.png" alt="" />
+              <p>Hazelnut Latte</p>
+              <div class="menu-title">
+                <span class="tag">Hot</span>
+                <span class="tag right-mg">Cold</span>
+                <i class="ri-shopping-cart-2-line"></i>
+              </div>
+            </div>
+          </div>
+          <div class="cont">
+            <div class="coffee">
+              <img src="./assets/img /2.png" alt="" />
+              <p>Vanilla Latte</p>
+              <div class="menu-title">
+                <span class="tag">Hot</span>
+                <span class="tag right-mg">Cold</span>
+                <i class="ri-shopping-cart-2-line"></i>
+              </div>
+            </div>
+          </div>
+          <div class="cont margin-top">
+            <div class="coffee">
+              <img src="./assets/img /3.png" alt="" />
+              <p>Espresso</p>
+              <div class="menu-title">
+                <span class="tag">Hot</span>
+                <span class="tag right-mg">Cold</span>
+                <i class="ri-shopping-cart-2-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu" id="menu">
+        <h1>Special Menu for <span class="span">you</span></h1>
+        <div class="container-menu">
+          <div class="grid-item">
+            <img src="./assets/img /waffle.png" alt="" />
+            <div class="menu-name">
+              <p>Waffle Ice Cream</p>
+              <span>₹180</span>
+            </div>
+            <div class="menu-title">
+              <span>Waffle with Ice cream</span>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img /hot-milk.png" alt="" />
+            <div class="menu-name">
+              <p>Hot Milk</p>
+              <span>₹100</span>
+            </div>
+            <div class="menu-title">
+              <span>Hot milk with less sugar</span>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img /Moccacinno.png" alt="" />
+            <div class="menu-name">
+              <p>Moccacinno</p>
+              <span>₹240</span>
+            </div>
+            <div class="menu-title">
+              <span>Hot Moccacinno</span>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img /cappucino.png" alt="" />
+            <div class="menu-name">
+              <p>Cappucino</p>
+              <span>₹300</span>
+            </div>
+            <div class="menu-title">
+              <span>Hot Cappucino</span>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img /coffe ice cream.png" alt="" />
+            <div class="menu-name">
+              <p>Coffe Ice Cream</p>
+              <span>₹280</span>
+            </div>
+            <div class="menu-title">
+              <span>Waffle with Ice cream</span>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img /sandwitch.png" alt="" />
+            <div class="menu-name">
+              <p>Sandwitch</p>
+              <span>₹350</span>
+            </div>
+            <div class="menu-title">
+              <span>bread with cheese and salad</span>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="aboutUs" id="about-us">
+        <div class="about-box">
+          <div class="about-img">
+            <img src="./assets/img /aboutt.jpeg" alt="" />
+          </div>
+          <div class="about-content">
+            <h1>About <span class="span">us</span></h1>
+            <h2>
+              We provide quality coffee,<br />
+              and ready to deliver.
+            </h2>
+            <p>
+              We are a company that makes and distributes delicioius drinks. our
+              main product is made with a secret recipe and available in stores
+              worldwide .
+            </p>
+            <a href="#" class="btn-about">Get your coffee</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="delivery">
+        <h1>How to use use delivery <span class="span">service</span></h1>
+        <div class="delivery-box">
+          <div class="service">
+            <img src="./assets/img /service1.png" alt="" />
+            <h2>choose your coffee</h2>
+            <p>there are 20+ coffees for you</p>
+          </div>
+          <div class="service">
+            <img src="./assets/img /service2.png" alt="" />
+            <h2>we deliver it to you</h2>
+            <p>Choose delivery service</p>
+          </div>
+          <div class="service last-service">
+            <img src="./assets/img /service3.png" alt="" />
+            <h2>enjoy your coffee</h2>
+            <p>Relax and enjoy best coffee</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="review" id="customer">
+        <h1 class="heading">
+          What they say about <span class="span">us</span>
+        </h1>
+
+        <div class="review-slider">
+          <div class="wrapper">
+            <div class="box">
+              <img src="./assets/customers/customer-1.jpg" alt="" />
+              <p>
+                "Fast and friendly service! My usual latte was delicious, as
+                always."
+              </p>
+              <h3>Olivia Mia</h3>
+            </div>
+            <div class="box">
+              <img src="./assets/customers/customer-2.jpg" alt="" />
+              <p>"A bit too strong for me, but the aroma is amazing!."</p>
+              <h3>John Deo</h3>
+            </div>
+            <div class="box">
+              <img src="./assets/customers/customer-3.jpg" alt="" />
+              <p>
+                "Love the smooth taste and subtle acidity. Great for iced
+                coffee!"
+              </p>
+              <h3>Amelia Rose</h3>
+            </div>
+            <div class="box">
+              <img src="./assets/customers/customer-5.jpg" alt="" />
+              <p>
+                "Rich and flavorful! This dark roast is perfect for a morning
+                pick-me-up."
+              </p>
+              <h3>Lara haze</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="container-form" id="cta">
+          <h1>Get your first coffee for free !</h1>
+          <p>
+            Sign up with your email address to receive exclusive offers and
+            discounts.
+          </p>
+          <form action="#">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email address"
+              required
+            />
+            <button type="submit">Order Now</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>COFFEESI.</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">Coffee</a></li>
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Cups</a></li>
+              <li><a href="#">Shakers</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
